@@ -1,0 +1,20 @@
+ESTHETIQUE:
+-Barre pour le titre dans la couleur du theme
+-texte mis en forme
+-case qui grossissent pour les différents choix
+-emplacement pour ajouter les pierres quand on en recupere une
+-liste de stats divers
+-design pour les jeux
+
+GAME-DESIGN:
+-voir pour faire histoire en allant chercher les 5 pierres
+-ajout de plusieurs autres pages
+-minis jeux pour chaque pierre
+-en fonction des choix les probas de gagner aux jeux sont plus dures
+-4 jeux 
+	-égnime
+	-équations
+	-Rébus
+	-questions drapeaux
+	-mastermind
+

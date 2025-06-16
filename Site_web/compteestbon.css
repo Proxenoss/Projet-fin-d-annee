@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&display=swap');
+
+body {
+  background: url('https://www.transparenttextures.com/patterns/aged-paper.png');
+  background-color: #fdf6e3;
+  font-family: 'Uncial Antiqua', cursive;
+  text-align: center;
+  padding: 40px;
+  color: #3b2f2f;
+}
+
+h1 {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #5e2b1a;
+  text-shadow: 1px 1px 2px #bfa;
+}
+
+#jeu {
+  background-color: #fff8dc;
+  border: 2px dashed #5e2b1a;
+  padding: 25px;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 300px;
+  border: 2px solid #5e2b1a;
+  background-color: #fff9e6;
+  font-family: 'MedievalSharp', cursive;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #5e2b1a;
+  color: #fdf6e3;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-family: 'MedievalSharp', cursive;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #7b3a23;
+}
+
+#feedback {
+  margin-top: 20px;
+  min-height: 60px;
+  font-size: 1.1em;
+}

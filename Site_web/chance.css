@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+}
+
+.chance-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 200px;
+  height: 25px;
+  background-color: #dac5a7;
+  border: 2px solid #5a3e1a;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: inset 0 0 4px #5a3e1a;
+  z-index: 1000;
+}
+
+.chance-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #80d4ff, #007acc);
+  text-align: center;
+  color: #fff;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: width 0.3s ease;
+}

@@ -1,0 +1,182 @@
+<chapter id="01">Le Village de Grinheim</chapter>
+<p>Vous êtes originaire du village de Grinheim, un endroit tranquille niché entre des collines verdoyantes et une forêt dense. Le village, autrefois prospère, se trouve aujourd'hui sous l'emprise d'une malédiction ancienne. Les récoltes pourrissent, les enfants tombent malades, et un sentiment d'oppression envahit l'air. Selon la légende, un artefact puissant, le Collier aux Trois Pierres, possède le pouvoir de briser la malédiction et de sauver Grinheim.</p>
+<p>Cette légende a traversé les générations, mais personne n'a osé se lancer à sa recherche. C’est vous qui allez tenter de briser ce cycle de malheur. Vous partez à l’aube, votre sac de voyage prêt, les premiers rayons du soleil caressant la terre. Vous avez entendu que le collier se trouve quelque part au-delà de plusieurs régions, des endroits que peu de gens osent traverser.</p>
+<choice idref="98">Prendre le sentier vers la sortie principal du village</choice>
+<choice idref="02">S’engager dans la forêt dense</choice>
+<choice idref="06">Passer par le château abandonné</choice>
+
+<chapter id="02">La Forêt</chapter>
+<p>Vous entrez dans la Forêt, un endroit sinistre et mystérieux. Les arbres s’élèvent comme des géants, leurs branches entrelacées formant un plafond presque imperméable à la lumière. Le sol est recouvert de mousse épaisse, et l’air est chargé d’humidité et d’une magie ancienne qui semble vous envelopper.</p>
+<p>Chaque bruit semble amplifié dans cette forêt. Un oiseau à la silhouette argentée s’envole à votre approche, et bientôt une créature aux yeux écarlates surgit et vous barre la route.</p>
+<choice idref="03">Tenter de communiquer avec elle</choice>       
+<choice idref="97">Essayer de la contourner discrètement</choice>
+
+<chapter id="03">L’énigme de l’esprit sylvestre</chapter>
+<p>L’être mystérieux vous lance une énigme ancienne. Sa voix est douce mais ferme, et l’enjeu clair : il faut répondre à cette énigme pour pouvoir continuer. Mais vous apercevez une lumière au loin et la créature semble lente, faudrt-il pas tenter de se diriger vers cette lumière</p>
+<choice idref="04">Forcer le passage vers la lumière</choice>
+<choice idref="100">Répondre à l’énigme</choice>
+
+<chapter id="04">La clairière scintillante</chapter>
+<p>Après quelques minutes de marche vous arrivez en direction d'une clairière ou vous apercevez une pierre posée par dessus un autel. Néanmoins les herbes qui semblaient si brillantes commencent à s'agiter et à se regrouper autour de vous pour vous serrer les jambes et vous immobiliser completement</p>
+<choice idref="96">Sortir son couteau et couper les herbes</choice>
+<choice idref="05">Se laisser faire en espérant qu'elles soient inoffensives</choice>
+
+<chapter id="05">Le retour de la créature</chapter>
+<p>Les herbes après vous avoir complétement immobilisé s'écartent pour laisser place à la créature qui revient vers vous pour vous indiquer fermement que seul celui qui répond à l'énigme pourra avoir cette pierre sinon les herbes se feront un plaisir de vous brisez les os</p>
+<choice idref="100">Répondre à l'énigme</choice>
+<choice idref="99">Attaquer la créature</choice>
+
+<chapter id="06">Le château et son gardien</chapter>
+<p>Vous arrivez devant le château les jambes tremblotantes, le silence et l'obscurité n'aide pas à se sentir à l'aise. D'un coup un vieillard surgi avec son bâton, il commence à dessiner une sorte de réceptacle au sol qui semble être celui des pierres et prononce une phrase : 4 énigmes garde les 4 pierres, ensemble elles forment la solution. Il disparait ensuite comme il est apparu</p>
+<choice idref="02">Décider de récupérer la forêt en traversant le château</choice>
+<choice idref="04">Se diriger vers la clairière que vous apercevez au loin</choice>
+
+<chapter id="100">Enigme</chapter>
+<p>Il vous suffit d résoudre cette énigme et vous pourrez continuer votre aventure en possession de la pierre de saphir</p>
+
+<chapter id="07">La Réponse Juste</chapter>
+<p>Vous répondez correctement à l’énigme, et l’esprit s’écarte, laissant entrevoir une clairière où scintille une pierre bleu aux reflets ciels. Vous avez trouvé la première pièce du puzzle.</p>
+<choice idref="08">Continuer votre route vers les temples anciens</choice>
+
+<chapter id="99">Fin de la quête</chapter>
+<p>L'être s'écarte de votre attaque et disparait dans la forêt en vous laissant avec les herbes qui se multiplient et vous serrent vers une mort, c'est la fin de votre voyage</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="98">Fin de la quête</chapter>
+<p>A la sortie du village vous croisez votre mère qui vous rappel à l'ordre en vous disant de rester pour s'occuper des champs</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="97">Fin de la quête</chapter>
+<p>Vous vous glissez silencieusement derrière la créature, mais les branches craquent sous vos pas. Une douleur sourde vous saisit soudain, et vous perdez connaissance.</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="96">Fin de la quête</chapter>
+<p>Les herbes bien que coupées se multiplient en dizaines puis en centaines puis en milliers et vous étouffe</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="08">Les temples anciens</chapter>
+<p>Les vieux temples, autrefois fiers, ne sont plus qu’un tas de pierres couvertes de mousse. Un air lourd de mystère plane sur ces lieux. Une écho résonne, écho d’un passé oublié, parlant de pierres précieuses cachées et de dangers à venir. Vous vous trouvez devant des vestiges de ce qui semble être un ancien village</p>
+<choice idref="10">Descendre dans le temple plus petit</choice>
+<choice idref="11">Explorer la hutte en face</choice>
+<choice idref="09">Descendre dans le grand temple</choice>
+
+<chapter id="09">Grand Temple</chapter>
+<p>Vous décidez d'aller explorer le plus grand des temples, la structure est immense, extrêmement décoré mais surtout recouvert par la mousse. L'obscurité vous empêche de tout distinguer tous les détails vous apercevez seulement un levier qui pourrait faire office d'interrupteur. De plus au loin un éclat de lumière vous parvient, cela à l'air d'être joli</p>
+<choice idref="94">Activer la levier</choice>
+<choice idref="12">Se diriger vers l'éclat de lumière</choice>
+
+<chapter id="10">Petit temple</chapter>
+<p>Vous aller explorer le plus petit de temple, plus discet moins décoré mais qui semble renfermer de nombreux secret aussi, vous vous perdez dans les couloirs avat de tomber sur une trappe qui mène vers le sous-sol et les cachots mais en face de vous il y a une lumière jaune qui vous intrigue</p>
+<choice idref="12">Aller vers la lumière</choice>
+<choice idref="15">Explorer les cachots</choice>
+
+<chapter id="11">La hutte</chapter>
+<p>Votre torche éclaire des fresques anciennes qui racontent la légende des pierres sacrées. Un souffle glacial vous pousse à avancer, malgré l’angoisse qui monte. Seulement il y a un truc qui cloche la grotte semblait plus grande de l'extérieur mais les haches et les arbalètes qui décore les murs vous mettent le doute sur le fait de fouiller</p>
+<choice idref="13">Chercher un passage secret</choice>
+<choice idref="08">Faire demi-tour vers les temples</choice>
+
+<chapter id="12">La salle aux trésors</chapter>
+<p>La fameuse lumière venait de la, c'était le reflet de la lumière sur les montagnes d'or entreposé dans cette pièce, mise à part ça il y a aussi une grosse porte en peu en contrebas. N'empêche que celas serait dommage de parti d'ici sans ramener un petit peu d'or, le village pourrait mieux se porter</p>
+<choice idref="16">Prendre un peu d'or et aller vers la porte</choice>
+<choice idref="16">Aller direct vers la porte du fond</choice>
+
+<chapter id="13">Les parois douteuses</chapter>
+<p>Bingo, après avoir tout fouillé vous trouvez un trou derrière un cadre qui ouvre sur un escalier en colimaçon qui donne dans une espèces de pièce centrale qui semblait relié tous les bâtiments, mais seul deux couloirs sont encore empruntables</p>
+<choice idref="12">Continuer vers une salle aux reflets jaune</choice>
+<choice idref="14">Se diriger vers la salle plus poussiéreuse et ancienne</choice>
+
+<chapter id="14">Bibliothèque</chapter>
+<p>Normal que cette salle soit poussiéreuse, elle devait pas servir beaucoup, c'est la bibliothèque du village. Vous feuilleter rapidement quelques livres pour en apprendre plus puis vous remarquez un trappe sous une étagère qui vous intrigue cependant il vaudrait peut-être mieux continuer vers la porte massive en pierre au bout</p>
+<choice idref="16">Aller vers la porte en pierre</choice>
+<choice idref="95">Décaler une étagère vers la trappe secrete</choice>
+
+<chapter id="15">Les cachots</chapter>
+<p>La noirceur vous enveloppe, et des bruits inquiétants résonnent. Avancer sans lumière semble dangereux, mais abandonner serait trahir votre quête. Vous avancez avec comme seul ami votre courage te vous arrivez devant une porte néanmoins les prison sont encore grande et regorge surement encore de secrets</p>
+<choice idref="93">Explorer la prison</choice>
+<choice idref="16">Aller vers la lourde porte</choice>
+
+<chapter id="16">La porte à code</chapter>
+<p>Vous arrivez devant une porte qui semble extrêmement épaisse et à la fois légère. Vous tentez de la pousser mais rien à faire puis vous jeter un coup d'œil et apercevez une sorte de tablette en pierre avec un code à entrer</p>
+<choice idref="101">Décrypter le code</choice>
+
+<chapter id="101">Enigme</chapter>
+<p>IL vous faudra décrypter le code pour accéder à la salle qui contient la pierre</p>
+
+<chapter id="95">Fin de la quête</chapter>
+<p>L'étagère bloque et vous êtes contraint de forcer ce qui provoque sa chute et malheureusement elle est trop lourde pour vous et vous tombe dessus entrainant une mort radicale</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="94">Fin de la quête</chapter>
+<p>C'était le levier à ne pas toucher car il activait un piège sous vos pieds qui vous à fait tomber dans un trou rempli de piques</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="93">Fin de la quête</chapter>
+<p>La grille de la prison se referme brusquement et vous vous retrouvez donc enfermé dans une prison à tout jamais</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="17">La Pierre d’Ambre</chapter>
+<p>La porte s'ouvre et vous vous retrouvez nez à nez avec un piédestal avec un pierre lumineuse. Vous saisissez la pierre d’ambre qui rayonne dans votre main, chaude comme un soleil couchant. Vous sentez son énergie, promesse de pouvoir et d’espoir.</p>
+<choice idref="18">Suivre un sentier montant vers les montagnes</choice>
+
+<chapter id="18">La Montagne Escarpée</chapter>
+<p>Le vent mordant fouette votre visage alors que vous gravissez un sentier étroit. Votre randonnée vous mène à un embranchement avec un panneau indiquant un refuge vers la gauche, les collines solitaire vers la droite ou la grotte obscure au centre</p>
+<choice idref="20">Continuer vers les colines</choice>
+<choice idref="19">Aller vers l'abri</choice>
+<choice idref="21">S'engager vers la grotte obscure</choice>
+
+<chapter id="19">Le Refuge</chapter>
+<p>Le refuge est un chalet contenant le minimum d'espace vital et des ressources pour survivre, cela permet de vous réchauffez. Vous apercevez quelques boites de conserves qui trainent et dans le coin un hamac</p>
+<choice idref="22">Manger</choice>
+<choice idref="92">Attendre en dormant</choice>
+
+<chapter id="20">Les Collines Solitaires</chapter>
+<p>Vous avancez seul à travers un terrain escarpé, la marche est compliqué et vous devez vous arrêter constamment. Vous apercevez au loin une silhouette</p>
+<choice idref="91">Continuer en solitaire</choice>
+<choice idref="23">Aller vers le voyageur</choice>
+
+<chapter id="21">La Grotte Antique</chapter>
+<p>Une grotte ancienne, marquée de symboles oubliés, s’ouvre devant vous. Une obscurité intense y règne et un froid glaciale en sort, instantanément qui ressentez des frissons</p>
+<choice idref="24">Entrer</choice>
+<choice idref="19">Demi-tour vers le refuge</choice>
+
+<chapter id="22">Manger</chapter>
+<p>Vous terminez rapidement vous repas ce qui redonne des forces et continuez votre route dans la montagne</p>
+<choice idref="20">Se diriger vers collines</choice>
+<choice idref="21">Prendre le sentier de la Grotte</choice>
+
+<chapter id="23">Le Voyageur Mystérieux</chapter>
+<p>Un homme âgé vous accueille, un regard pénétrant derrière ses lunettes rondes. Il parle d’épreuves à venir, d’une sagesse cachée dans la pierre rouge et raconte l'histoire de ses montagnes et vous indique un sentier en agitant les bras</p>
+<choice idref="24">Écouter patiemment et prendre le sentier</choice>
+<choice idref="91">Ignorer ce fou</choice>
+
+<chapter id="24">Le Lac Obscur</chapter>
+<p>Vous entrez dans la grotte et tombez nez à nez avec un lac, d’un noir profond, met un froid glacial dans toute la grotte rendant tout forme de vie impossible. Une immense silhouette se trouve sur la rive opposés du lac. Un pont formé d'une glace bleu foncé se trouve à votre gauche mais vous apercevez une barque votre droite</p>
+<choice idref="25">Traverser avec la barque</choice>
+<choice idref="90">Prendre le pont</choice>
+
+<chapter id="25">L’Épreuve du Feu</chapter>
+<p>La traversé se passe sans problème et vous vous retrouvez devant un être d’eau se dresse devant vous, ses yeux luminescents fixant votre âme. « Seul celui qui prouve sa valeur recevra le cadeau du lac » dit-il. Il lève les mains et fait apparaitre un cercle de feu qui vous entoure. La pierre de Ruby se trouve dans les flamme et seul la bonne réponse permettra de l'atteindre</p>
+<choice idref="102">Répondre à l'énigme</choice>
+
+<chapter id="102">Enigme</chapter>
+<p>Donnez la bonne réponse à l'énigme pous laisser les flamme s'écarter</p>
+
+<chapter id="92">Fin de la quête</chapter>
+<p>Le repos vous a fait un grand bien néanmoins une tempete de neige à recouvert votre refuge et il vous est impossible de sortir, vous mourrez de faim dans le refuge</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="91">Fin de la quête</chapter>
+<p>Ce n'était pas une bonne idée de penser pouvoir y arriver seul vous vous perdez dans la forêt</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="90">Fin de la quête</chapter>
+<p>Le pont semblait instable et vous aviez raison il se brise sous votre poids et vous tombez dans l'eau glaciale</p>
+<choice idref="01">Début d'une nouvelle aventure</choice>
+
+<chapter id="26">La Pierre de Ruby</chapter>
+<p>La pierre rouge écarlate brûle dans votre main, une chaleur qui pulse comme un cœur vivant. Elle complète la collection des pierres sacrées.</p>
+<choice idref="27">Retourner au village pour sauver Grinheim</choice>
+
+<chapter id="27">Le Retour vers Grinheim</chapter>
+<p>Vous arpentez le chemin du retour, les pierres en main. Chaque pas vous rapproche de la délivrance. Arrivé la bas vous fusionnez les pierres sous la forme d'un collier, d'un il s'élève et explose dans une pluie de poussière minuscule qui recouvre tout le village. Le village s’éveille, la terre retrouve sa vitalité, et les habitants sourient à nouveau. Votre quête s’achève, héroïque et accomplie.</p>
+
