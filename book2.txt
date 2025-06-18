@@ -1,8 +1,9 @@
 <chapter id="01">Le Village de Grinheim</chapter>
 <p>Vous êtes originaire du village de Grinheim, un endroit tranquille niché entre des collines verdoyantes et une forêt dense. Le village, autrefois prospère, se trouve aujourd'hui sous l'emprise d'une malédiction ancienne. Les récoltes pourrissent, les enfants tombent malades, et un sentiment d'oppression envahit l'air. Selon la légende, un artefact puissant, le Collier aux Trois Pierres, possède le pouvoir de briser la malédiction et de sauver Grinheim.</p>
 <p>Cette légende a traversé les générations, mais personne n'a osé se lancer à sa recherche. C’est vous qui allez tenter de briser ce cycle de malheur. Vous partez à l’aube, votre sac de voyage prêt, les premiers rayons du soleil caressant la terre. Vous avez entendu que le collier se trouve quelque part au-delà de plusieurs régions, des endroits que peu de gens osent traverser.</p>
+<p>Explication de la bravoure : La bravoure augmentera ou diminuera en fonction de vos choix, faites les bons ça peut aller très vite. Et cela effectuera la difficulté des jeux, une bravoure élevée simplifiera votre partie</p>
 <choice idref="98">Prendre le sentier vers la sortie principal du village</choice>
-<choice idref="02">S’engager dans la forêt dense</choice>
+<choice idref="02">S’engager dans la forêt</choice>
 <choice idref="06">Passer par le château abandonné</choice>
 
 <chapter id="02">La Forêt</chapter>
@@ -12,7 +13,7 @@
 <choice idref="97">Essayer de la contourner discrètement</choice>
 
 <chapter id="03">L’énigme de l’esprit sylvestre</chapter>
-<p>L’être mystérieux vous lance une énigme ancienne. Sa voix est douce mais ferme, et l’enjeu clair : il faut répondre à cette énigme pour pouvoir continuer. Mais vous apercevez une lumière au loin et la créature semble lente, faudrt-il pas tenter de se diriger vers cette lumière</p>
+<p>L’être mystérieux vous lance une énigme ancienne. Sa voix est douce mais ferme, et l’enjeu clair : il faut répondre à cette énigme pour pouvoir continuer. Mais vous apercevez une lumière au loin et la créature semble lente, faudrait-il pas tenter de se diriger vers cette lumière</p>
 <choice idref="04">Forcer le passage vers la lumière</choice>
 <choice idref="100">Répondre à l’énigme</choice>
 
@@ -21,18 +22,17 @@
 <choice idref="96">Sortir son couteau et couper les herbes</choice>
 <choice idref="05">Se laisser faire en espérant qu'elles soient inoffensives</choice>
 
-<chapter id="05">Le retour de la créature</chapter>
-<p>Les herbes après vous avoir complétement immobilisé s'écartent pour laisser place à la créature qui revient vers vous pour vous indiquer fermement que seul celui qui répond à l'énigme pourra avoir cette pierre sinon les herbes se feront un plaisir de vous brisez les os</p>
+<chapter id="05">L'apparition de la créature</chapter>
+<p>Les herbes après vous avoir complétement immobilisé s'écartent pour laisser place à la créature vous indiquer fermement que seul celui qui répond à l'énigme pourra avoir cette pierre sinon les herbes se feront un plaisir de vous brisez les os</p>
 <choice idref="100">Répondre à l'énigme</choice>
 <choice idref="99">Attaquer la créature</choice>
 
 <chapter id="06">Le château et son gardien</chapter>
-<p>Vous arrivez devant le château les jambes tremblotantes, le silence et l'obscurité n'aide pas à se sentir à l'aise. D'un coup un vieillard surgi avec son bâton, il commence à dessiner une sorte de réceptacle au sol qui semble être celui des pierres et prononce une phrase : 4 énigmes garde les 4 pierres, ensemble elles forment la solution. Il disparait ensuite comme il est apparu</p>
+<p>Vous arrivez devant le château les jambes tremblotantes, le silence et l'obscurité n'aide pas à se sentir à l'aise. D'un coup un vieillard surgi avec son bâton, il commence à dessiner une sorte de réceptacle au sol qui semble être celui des pierres et prononce une phrase : 3 énigmes garde les 3 pierres, ensemble elles forment la solution. Il disparait ensuite comme il est apparu</p>
 <choice idref="02">Décider de récupérer la forêt en traversant le château</choice>
 <choice idref="04">Se diriger vers la clairière que vous apercevez au loin</choice>
 
 <chapter id="100">Enigme</chapter>
-<p>Il vous suffit d résoudre cette énigme et vous pourrez continuer votre aventure en possession de la pierre de saphir</p>
 
 <chapter id="07">La Réponse Juste</chapter>
 <p>Vous répondez correctement à l’énigme, et l’esprit s’écarte, laissant entrevoir une clairière où scintille une pierre bleu aux reflets ciels. Vous avez trouvé la première pièce du puzzle.</p>
@@ -100,7 +100,6 @@
 <choice idref="101">Décrypter le code</choice>
 
 <chapter id="101">Enigme</chapter>
-<p>IL vous faudra décrypter le code pour accéder à la salle qui contient la pierre</p>
 
 <chapter id="95">Fin de la quête</chapter>
 <p>L'étagère bloque et vous êtes contraint de forcer ce qui provoque sa chute et malheureusement elle est trop lourde pour vous et vous tombe dessus entrainant une mort radicale</p>
@@ -159,7 +158,6 @@
 <choice idref="102">Répondre à l'énigme</choice>
 
 <chapter id="102">Enigme</chapter>
-<p>Donnez la bonne réponse à l'énigme pous laisser les flamme s'écarter</p>
 
 <chapter id="92">Fin de la quête</chapter>
 <p>Le repos vous a fait un grand bien néanmoins une tempete de neige à recouvert votre refuge et il vous est impossible de sortir, vous mourrez de faim dans le refuge</p>

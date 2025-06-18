@@ -1,22 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&display=swap');
-
-body {
-  background: url('https://www.transparenttextures.com/patterns/aged-paper.png');
-  color: #3b2f2f;
-  font-family: 'Uncial Antiqua', cursive;
-  padding: 50px;
-  text-align: center;
-  background-color: #fdf6e3;
-}
-
-h1 {
-  font-family: 'MedievalSharp', cursive;
-  font-size: 3em;
-  margin-bottom: 20px;
-  color: #5e2b1a;
-  text-shadow: 1px 1px 2px #bfa;
-}
-
 label {
   font-size: 1.3em;
   display: block;
@@ -29,7 +10,6 @@ input[type="text"] {
   width: 200px;
   border: 2px solid #5e2b1a;
   background-color: #fff9e6;
-  font-family: 'MedievalSharp', cursive;
   border-radius: 5px;
 }
 
@@ -40,7 +20,6 @@ button {
   padding: 10px 20px;
   margin-top: 15px;
   font-size: 1.2em;
-  font-family: 'MedievalSharp', cursive;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -53,7 +32,7 @@ button:hover {
 #feedback {
   margin-top: 30px;
   background-color: #fff8dc;
-  border: 2px dashed #5e2b1a;
+  border: 2px solid #5e2b1a;
   padding: 20px;
   border-radius: 10px;
   width: 60%;
@@ -63,14 +42,4 @@ button:hover {
   min-height: 100px;
   white-space: pre-wrap;
   text-align: left;
-}
-
-a {
-  color: #5e2b1a;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }

@@ -14,7 +14,5 @@ GAME-DESIGN:
 -4 jeux 
 	-égnime
 	-équations
-	-Rébus
-	-questions drapeaux
 	-mastermind
 

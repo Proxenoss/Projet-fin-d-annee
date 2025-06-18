@@ -1,6 +1,11 @@
 body {
     font-family: sans-serif;
     background-color: #fdf1db;
+    color: #3b2f2f;
+    font-family: 'Uncial Antiqua', cursive;
+    padding: 50px;
+    text-align: center;
+    background-color: #fdf6e3;
 }
 
 h1{
@@ -9,12 +14,14 @@ h1{
     color: #49321f;
     font-weight: 1000px;
     font-size: 50px;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #5e2b1a;
 }
-
 a.box {
     font-family: "Quintessential", sans-serif;
     display: block;
-    width: 80%;                
+    width: 80%;              
     max-width: 900px;          
     margin: 30px auto;         
     padding: 30px 20px;
@@ -33,28 +40,65 @@ a.box:hover {
     transform: scale(1.12);
 }
 
-.chance-container {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  width: 200px;
-  height: 25px;
-  background-color: #dac5a7;
-  border: 2px solid #5a3e1a;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: inset 0 0 4px #5a3e1a;
-  z-index: 1000;
+::-webkit-scrollbar {
+  width: 20px;
 }
 
-.chance-bar {
-  height: 100%;
-  background: linear-gradient(90deg, #80d4ff, #007acc);
-  text-align: center;
-  color: #fff;
-  line-height: 25px;
-  font-size: 14px;
-  font-weight: bold;
-  transition: width 0.3s ease;
+::-webkit-scrollbar-track {
+  background: #f5e7c4;
 }
+
+::-webkit-scrollbar-thumb {
+  background: #7b4b2a;
+  border-radius: 10px;
+  border: 2px solid #f5e7c4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a3921;
+}
+#cranedelalose{
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+}
+
+.crane {
+  font-size: 100px;
+  animation: fadeIn 1s ease-out forwards;
+  color: #ccc;
+  text-shadow: 2px 2px 5px black;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.5)}
+  to { opacity: 1; transform: scale(4)}
+}
+#youpi-container{
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+}
+
+.gagne {
+  font-size: 100px;
+  animation: fadeIn 1s ease-out forwards;
+  color: #ccc;
+  text-shadow: 2px 2px 5px black;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.5)}
+  to { opacity: 1; transform: scale(4)}
+}
+
+
+
+
 

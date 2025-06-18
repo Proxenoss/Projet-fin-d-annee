@@ -1,0 +1,54 @@
+.container {
+  text-align: center;
+  background-color: rgba(255, 248, 220, 0.9);
+  padding: 30px;
+  border: 3px solid #7b4b2a;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000000aa;
+}
+
+.bar-container {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  border: 2px solid #5a3921;
+  margin: 20px auto;
+  background-color: #ddd;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.zone-verte {
+  position: absolute;
+  left: 120px;
+  width: 60px;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.curseur {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: red;
+  left: 0;
+}
+
+#attackBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #5a3921;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#attackBtn:hover {
+  background-color: #7b4b2a;
+}
+
+#message {
+  font-size: 18px;
+  margin-top: 15px;
+}

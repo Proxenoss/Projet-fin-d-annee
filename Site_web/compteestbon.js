@@ -1,19 +1,28 @@
+let difficulte = voilaTaChance();
 const petits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const grands = [25, 50, 75, 100];
 let tous = [];
-
 let objectif;
+let nbrTirage;
 
 function tirerNombres() {
   let tirage = [];
+  if (difficulte <= 33){
+    nbrTirage = 3;
+  }
+  else if (difficulte >=66){
+    nbrTirage = 5;
+  }
+  else{
+    nbrTirage = 4;
+  }
 
-  // 2 grands, 4 petits
   for (let i = 0; i < 2; i++) {
     let index = Math.floor(Math.random() * grands.length);
     tirage.push(grands[index]);
   }
 
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < nbrTirage; i++) {
     let index = Math.floor(Math.random() * petits.length);
     tirage.push(petits[index]);
   }

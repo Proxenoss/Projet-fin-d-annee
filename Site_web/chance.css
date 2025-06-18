@@ -1,14 +1,8 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Georgia', serif;
-}
-
 .chance-container {
   position: fixed;
   bottom: 20px;
-  left: 20px;
-  width: 200px;
+  left: 10px;
+  width: 180px;
   height: 25px;
   background-color: #dac5a7;
   border: 2px solid #5a3e1a;
@@ -20,9 +14,9 @@ body {
 
 .chance-bar {
   height: 100%;
-  background: linear-gradient(90deg, #80d4ff, #007acc);
+  background: linear-gradient(90deg, #e8ff80, #cc6300);
   text-align: center;
-  color: #fff;
+  color: #000000;
   line-height: 25px;
   font-size: 14px;
   font-weight: bold;
