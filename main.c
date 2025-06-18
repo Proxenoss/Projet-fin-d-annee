@@ -108,6 +108,7 @@ int main() {
                     "    <h1>%s</h1>\n"
                     "<p>Pour récuperer cette seconde pierre il suffit de résoudre cette énigme</p>"
                     "<p>Les Règles du Compte est bon : Pour gagner il faut réussir à atteindre le chiffre en utlisant au maximum une fois les chiffres proposés et en utilisant l'addition, la soustraction, la multiplication et la division (+,-,*,/), attention à bien mettre les parenthèses</p>"
+                    "<p><strong>LE JEU NE VERIFIE PAS SI LA SOLUTION EST FAISABLE SI VOUS NE TROUVEZ PAS DE SOLUTION RECHARGEZ LA PAGE"
                     "<div id=\"jeu\">"
                     "   <div id=\"nombres\"></div>"
                     "       <p>Nombre à atteindre : <strong id=\"objectif\"></strong></p>"

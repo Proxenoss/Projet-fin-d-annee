@@ -1,18 +1,20 @@
 ESTHETIQUE:
--Barre pour le titre dans la couleur du theme
+-on veut un style médiévale/parchemin
+-Barre pour le titre dans la couleur du thème
+-modifier barre de défilement
 -texte mis en forme
 -case qui grossissent pour les différents choix
--emplacement pour ajouter les pierres quand on en recupere une
--liste de stats divers
+-emplacement pour ajouter les pierres quand on en recupere une (pas fait)
+-stat pour modifier la difficulté
 -design pour les jeux
 
 GAME-DESIGN:
--voir pour faire histoire en allant chercher les 5 pierres
+-voir pour faire histoire en allant chercher les 5 pierres voir moins
 -ajout de plusieurs autres pages
 -minis jeux pour chaque pierre
 -en fonction des choix les probas de gagner aux jeux sont plus dures
--4 jeux 
+-3 jeux 
 	-égnime
 	-équations
 	-mastermind
-
+-jeux de logiques simplistes

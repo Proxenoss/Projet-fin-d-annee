@@ -1,11 +1,12 @@
 body {
     font-family: sans-serif;
     background-color: #fdf1db;
-    color: #3b2f2f;
+    color: #000000;
     font-family: 'Uncial Antiqua', cursive;
     padding: 50px;
     text-align: center;
     background-color: #fdf6e3;
+    background-image: url(fond.png);
 }
 
 h1{
@@ -25,7 +26,7 @@ a.box {
     max-width: 900px;          
     margin: 30px auto;         
     padding: 30px 20px;
-    background-color: #ff7e57;
+    background-color: #a36430;
     color: #000;
     text-decoration: none;
     font-size: 1.5rem;
@@ -36,7 +37,7 @@ a.box {
 }
 
 a.box:hover {
-    background-color: #4bac32;
+    background-color: #64be4e;
     transform: scale(1.12);
 }
 
