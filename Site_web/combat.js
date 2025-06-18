@@ -35,7 +35,7 @@ function moveCursor() {
 function startGame() {
   interval = setInterval(moveCursor, 10);
 }
-
+//cette partie a été codé a la main mais corrigé par chat gpt sinon il y avait quelques bugs
 btn.addEventListener("click", () => {
   clearInterval(interval);
   const successZoneStart = 120;

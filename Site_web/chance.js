@@ -1,3 +1,4 @@
+//La partie pour le stockage en ligne de la variable a été demandé à chat gpt
 if (localStorage.getItem("chance") === null) {
   localStorage.setItem("chance", "50");
 }
@@ -11,7 +12,7 @@ function setChance(value) {
   localStorage.setItem("chance", value.toString());
   mettreAJourChance();
 }
-
+//jusqu'ici en gros
 function mettreAJourChance() {
   const barre = document.getElementById("chance-bar");
   const valeur = getChance();

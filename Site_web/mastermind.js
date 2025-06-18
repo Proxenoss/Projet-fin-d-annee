@@ -75,7 +75,7 @@ function submitGuess() {
   let malPlace = 0;
   const codeCopy = [...Code];
   const guessCopy = [...guess];
-
+//La partie vérification (jusqu'à "feedbak") a été fait par chat gpt
   for (let i = 0; i < taille; i++) {
     if (guess[i] === Code[i]) {
       bienPlace++;
@@ -96,7 +96,7 @@ function submitGuess() {
 
   const feedback = document.getElementById("feedback");
   feedback.innerText += `Essai : ${guess.join(", ")} ➜ ${bienPlace} bien placé(s), ${malPlace} mal placé(s)\n`;
-
+// jusqu'ici
   if (bienPlace === taille) {
     feedback.innerText += "🎉 Bravo, tu as trouvé le code !\n";
     setTimeout(() => {

@@ -34,25 +34,36 @@ function tirerNombres() {
   document.getElementById("nombres").innerText = `Nombres disponibles : ${tous.join(", ")}`;
   document.getElementById("objectif").innerText = objectif;
 }
+//le reste a été fait en grande partie par chat gpt avec quelques modifications pour simplifier le code et correspondre à nos attentes
+function calculerExpression(expr) {
+  expr = expr.replace(/\s+/g, '');
+  const f = new Function(`return (${expr})`);
+  return f();
+}
 
 function verifierSolution() {
   const saisie = document.getElementById("solution").value;
   const feedback = document.getElementById("feedback");
 
   try {
-    const resultat = eval(saisie);
+    if (!/^[\d\s+\-*/().]+$/.test(saisie)) {
+      throw new Error("Caractères non valides.");
+    }
+    const utilises = saisie.match(/\d+/g)?.map(Number) || [];
 
-    const utilisés = saisie.match(/\d+/g)?.map(Number) || [];
-
-    const tousDispo = utilisés.every(num => tous.includes(num) && utilisés.filter(n => n === num).length <= tous.filter(n => n === num).length);
+    const tousDispo = utilises.every(num =>
+      tous.includes(num) &&
+      utilises.filter(n => n === num).length <= tous.filter(n => n === num).length
+    );
 
     if (!tousDispo) {
       feedback.innerText = "Vous avez utilisé un ou plusieurs nombres non autorisés.";
       return;
     }
+    const resultat = calculerExpression(saisie);
 
-    if (resultat === objectif) {
-      feedback.innerText = "Bravo, vous avez trouvé la solution exacte !";
+    if (Math.abs(resultat - objectif) < 1e-6) {
+      feedback.innerText = "Bravo, vous avez trouvé la solution !";
       setTimeout(() => {
         window.location.href = "17.html";
       }, 2000);
@@ -60,7 +71,7 @@ function verifierSolution() {
       feedback.innerText = `Résultat obtenu : ${resultat}. Ce n'est pas le bon nombre.`;
     }
 
-  } catch {
+  } catch (e) {
     feedback.innerText = "Formule invalide. Utilisez uniquement des chiffres et des opérateurs (+, -, *, /).";
   }
 }
